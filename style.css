@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    background-image: url(360_F_827876077_k0EWo3jSiWZPR8fRgsSbZFT9SkrozNuj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .calculator {
+    background-color: transparent;
+    width: 60%;
+    color: rgb(255, 248, 248);
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #757575;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, select {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  #downloadbtn{
+    display: none;
+  }
+  .db{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  #results div {
+    margin-bottom: 10px;
+  }
+  
+  button[type="button"] {
+    background-color: #007BFF;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
